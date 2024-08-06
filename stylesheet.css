@@ -1,0 +1,155 @@
+
+header{
+     text-align: center;
+     background-image: linear-gradient(0deg, #025a31, #25d184,#2DFFCE);
+      }
+     nav{
+         text-align: start;
+         text-shadow: 0px 7px 7px rgb(0, 0, 37);
+         padding: 10px;
+         font-family: Arial, Helvetica, sans-serif;
+     }
+     nav> a{
+      color: white;
+      text-decoration: none;
+      padding: 10px;
+      border-radius: 5px;
+      font-weight: bolder;
+      transition-duration: 0.5s;
+     }
+     a:hover{
+     background-color:#a7f5ce; 
+     }
+     .titulo1{
+     padding-top: 35px;  
+     color:white;
+     text-shadow: 0px 0px 4px rgb(0, 0, 0);
+     font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif
+     }
+     .subtitulo{
+     margin-top: 20px;
+     margin-bottom: 15px;
+     color:white;
+     font-family: Arial, Helvetica, sans-serif;
+     text-shadow: 0px 0px 4px rgb(59, 59, 59);
+     }
+     .titulo2{
+          font-family: idroid; 
+          color: #014726;
+          padding: 3px;
+          font-size: 1.3em;
+          text-align: center;
+     }
+     h2{
+      font-family: idroid;
+      color: #014b28;
+      background-color: #b5f7d9;
+      text-shadow: 1px 1px 1px gray;
+      background-image: linear-gradient(45deg, #83fc8d , #93f19f, #f8fffc);
+      margin-bottom: 10px;
+      font-size: 1.3em;
+     }
+     span{
+      color: hsl(153, 79%, 47%);
+      text-indent: 10px;
+     }
+     .links{
+      color: hsl(125, 95%, 45%);
+      text-decoration: none;
+      font-weight: bolder;
+      transition-duration: 0.5s;
+     }
+     *{
+          margin: 0px;
+          padding: 0px;
+     }
+     @font-face {
+          font-family: idroid;
+          src: url(IDroid.otf);
+     }
+     main{
+          min-width: 300;
+          max-width: 1000px;
+          margin: auto;
+          padding: 20px;
+          box-shadow: 0px 0px 10px rgb(58, 58, 58);
+          background-color: rgb(255, 253, 253);
+     }
+     body{
+          background-color: rgb(174, 247, 177);
+     }
+     section > p{
+          margin: 10px 0px;
+          text-align: justify;
+          text-indent: 30px;
+          line-height: 2em;
+          font-size: 1em;
+          font-family: Arial, Helvetica, sans-serif;
+
+     }
+     h3{
+          background-color: #09ac62;
+          border-top-left-radius: 10px;
+          border-top-right-radius: 10px;
+     }
+     div.video{
+          position: relative;
+          background-color: #02610b;
+          height: 0px;
+          margin-left: -20px;
+          margin-right: -20px;
+          margin-bottom: 15px;
+          padding-bottom: 59%;
+     }
+     div.video > iframe{
+          position: absolute;
+          top: 5%;
+          left: 5%;
+          width: 90%;
+          height: 90%;
+     }
+     article.lista{
+          background-color: #b8f5bd;
+          text-align: justify;
+          text-indent: 20px;
+          line-height: 2.1em;
+          font-size: 1em;
+          font-family: Arial, Helvetica, sans-serif;
+          border-bottom-left-radius: 10px;
+          border-bottom-right-radius: 10px;
+          position: relative;
+     }
+     ul{
+          list-style-type: '\2714\0020\0020';
+          columns: 2;
+          list-style-position: inside;
+          text-decoration: underline;
+          padding-bottom: 15px;
+          padding-top: 10px;
+     }
+     div{ 
+          text-align: center;
+     }
+     .lista > h3{
+          line-height: 2.2em;
+          color: white;
+          text-shadow: 0px 0px 1px black;
+          text-indent: 10px;
+     }
+     .lista > p{
+        margin-top: 0;
+        margin-bottom: 10px;
+        padding-right: 18px;
+        padding-left: 18px;
+     }
+     footer{
+          background-color: #084b2c;
+          text-align: center;
+          line-height: 1.5em;
+          color: rgb(196, 196, 196);
+          font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+     }
+     footer > spin{
+          color: white;
+          font-weight: bold;
+     }
